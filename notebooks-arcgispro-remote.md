@@ -34,6 +34,7 @@ The first forwarded port is for jupyter, the second for tensorboard.
 Notes:
 - You *should* be able to start the Pro environment from another terminal app (e.g. Windows Terminal rather than "ArcGIS > Python Command Prompt"). To do that, you can start it from here: "Program Files\ArcGIS\Pro\bin\Python\Scripts\proenv.bat"
 - If you can do all of this but are getting errors creating or saving notebooks, it could be that you don't have permission to write to the location where you started jupyter.
+- If `import arcpy` results in the error "The Product License has not been initialized", it could be that you are using Single Use License. This seems to not work. Try switching to a "Named User License".
 
 ### Update
 
